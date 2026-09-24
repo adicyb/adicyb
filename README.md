@@ -75,34 +75,22 @@ Models network topologies with NetworkX, injects link failures, and trains a Ran
 
 ---
 
-## NetGuard AI — Detection Logic
-
-The most technically distinct part of my work is how NetGuard AI turns two independent anomaly scores into a usable confidence tier:
-
-```mermaid
-flowchart TD
-    S(["1-second traffic window"]) --> M{"Both models flag anomaly?"}
-    M -- "Yes, strong agreement" --> H["HIGH confidence"]
-    M -- "Yes, borderline" --> Me["MEDIUM confidence"]
-    M -- "Only one model flags it" --> Me
-    M -- "Neither flags it" --> R{"Rule threshold breached?"}
-    R -- "Yes" --> H
-    R -- "No" --> L["LOW confidence"]
-
-    style H fill:#b71c1c,stroke:#ff5252,color:#fff
-    style Me fill:#e65100,stroke:#ffab40,color:#fff
-    style L fill:#1b5e20,stroke:#66bb6a,color:#fff
-```
-
-This is a heuristic combining rule and disagreement between two unsupervised models — useful for triage, not a substitute for analyst review.
-
----
-
 ## GitHub Stats
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=adicyb&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adicyb&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=adicyb&show_icons=true&theme=tokyonight&hide_border=true"
+    alt="GitHub Stats"
+    height="165"
+  />
+
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=adicyb&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
+    alt="Top Languages"
+    height="165"
+  />
+
 </div>
 
 ---
