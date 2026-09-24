@@ -1,66 +1,36 @@
-<!-- ==========================================================
-     ADITYA KHANDELWAL | CYBERSECURITY ENGINEERING
-     GitHub Profile: adicyb
-     ========================================================== -->
-
 <div align="center">
 
-  <!-- Animated Header -->
+<!-- ===================== HEADER ===================== -->
 
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0b132b,45:1c3b57,100:007f86&height=220&section=header&text=ADITYA%20KHANDELWAL&fontSize=45&fontColor=ffffff&fontAlignY=38&desc=Cybersecurity%20Engineering%20%7C%20Detection%20Systems%20%7C%20Applied%20ML&descSize=16&descAlignY=58&descColor=7df9ff&animation=fadeIn"
-    width="100%"
-    alt="Aditya Khandelwal - Cybersecurity Engineering"
-  />
+<img
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:0b132b,45:1c3b57,100:007f86&height=220&section=header&text=ADITYA%20KHANDELWAL&fontSize=45&fontColor=ffffff&fontAlignY=38&desc=Cybersecurity%20Engineering%20%7C%20Detection%20Systems%20%7C%20Applied%20ML&descSize=16&descAlignY=58&descColor=7df9ff&animation=fadeIn"
+  width="100%"
+  alt="Aditya Khandelwal - Cybersecurity Engineering"
+/>
 
-  <br/>
+<br/>
 
-  <!-- Typing Animation -->
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=900&color=48D1CC&center=true&vCenter=true&width=750&lines=Cybersecurity+Engineering;Detection+Engineering+%7C+Network+Defense;Endpoint+Security+%7C+Security+Monitoring;Applied+Machine+Learning+for+Cybersecurity"
+  alt="Cybersecurity engineering introduction"
+/>
 
-  <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=900&color=48D1CC&center=true&vCenter=true&width=750&lines=Building+practical+cybersecurity+systems;Detection+Engineering+%7C+Network+Defense+%7C+Endpoint+Security;Security+Monitoring+%7C+SIEM+%7C+Applied+Machine+Learning;Turning+Telemetry+Into+Actionable+Security+Signals"
-    alt="Cybersecurity engineering introduction"
-  />
+<br/><br/>
 
-  <br/><br/>
+<a href="https://github.com/adicyb">
+  <img src="https://img.shields.io/badge/GitHub-adicyb-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
 
-  <!-- Social Links -->
+<a href="https://www.linkedin.com/in/aditya-khandelwal2006/">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
 
-  <a href="https://github.com/adicyb">
-    <img
-      src="https://img.shields.io/badge/GitHub-adicyb-181717?style=for-the-badge&logo=github&logoColor=white"
-      alt="GitHub"
-    />
-  </a>
+<br/><br/>
 
-  <a href="https://www.linkedin.com/in/aditya-khandelwal2006/">
-    <img
-      src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-      alt="LinkedIn"
-    />
-  </a>
-
-  <br/><br/>
-
-  <img
-    src="https://img.shields.io/badge/Focus-Detection%20Engineering-007f86?style=flat-square"
-    alt="Detection Engineering"
-  />
-
-  <img
-    src="https://img.shields.io/badge/Domain-Cybersecurity-1c3b57?style=flat-square"
-    alt="Cybersecurity"
-  />
-
-  <img
-    src="https://img.shields.io/badge/Certification-RHCSA-cc0000?style=flat-square"
-    alt="RHCSA"
-  />
-
-  <img
-    src="https://img.shields.io/badge/Open%20To-Internships%20%26%20Collaboration-238636?style=flat-square"
-    alt="Open to internships and collaboration"
-  />
+<img src="https://img.shields.io/badge/Focus-Detection%20Engineering-007f86?style=flat-square" alt="Detection Engineering"/>
+<img src="https://img.shields.io/badge/Domain-Cybersecurity-1c3b57?style=flat-square" alt="Cybersecurity"/>
+<img src="https://img.shields.io/badge/Certification-RHCSA-cc0000?style=flat-square" alt="RHCSA"/>
+<img src="https://img.shields.io/badge/Open%20To-Internships%20%26%20Collaboration-238636?style=flat-square" alt="Open to internships and collaboration"/>
 
 </div>
 
@@ -70,54 +40,67 @@
 
 Hi, I'm **Aditya Khandelwal**, a B.Tech Computer Science and Engineering student specializing in Cyber Security at **SRM Institute of Science and Technology**.
 
-My primary interest lies in **building practical cybersecurity systems** that help identify suspicious activity, analyze security events, and improve visibility across networks and endpoints.
+My primary interest lies in building practical cybersecurity systems that help identify suspicious activity, analyze security events, and improve visibility across networks and endpoints.
 
-I enjoy working at the intersection of cybersecurity, systems engineering, and applied machine learning. Rather than treating security as a collection of theoretical concepts, I focus on understanding how attacks manifest in real environments, what telemetry can reveal about them, and how detection mechanisms can turn that telemetry into useful information for an analyst.
+I enjoy working at the intersection of cybersecurity, systems engineering, and applied machine learning. I focus on understanding how attacks manifest in real environments, what telemetry can reveal about them, and how detection mechanisms can transform that telemetry into meaningful information for security analysts.
 
-My work includes developing network intrusion detection systems, behavioral endpoint monitoring tools, wireless security experiments, and machine-learning-based detection approaches.
+My work and technical interests span network intrusion detection, behavioral endpoint monitoring, wireless security, Linux system administration, SIEM platforms, and machine-learning-based security analytics.
 
-I also work with security infrastructure and monitoring platforms, exploring how SIEM solutions, intrusion detection systems, log analysis pipelines, and security automation tools can be used to support security operations.
+I am particularly interested in **detection engineering**: developing detection logic, understanding its limitations, and evaluating whether it produces useful results.
 
-I believe a useful detection system should do more than generate alerts. It should provide meaningful evidence, make its detection logic understandable, and be evaluated with appropriate testing methods.
+I believe a useful detection system should do more than generate alerts. It should provide meaningful evidence, make its detection logic understandable, and be evaluated through appropriate testing methods.
 
-I am particularly interested in the distinction between unusual behavior and confirmed malicious activity, and in understanding the limitations of the techniques used to identify threats.
+I am also interested in the distinction between unusual behavior and confirmed malicious activity, especially when applying unsupervised machine learning to security telemetry.
 
-**Currently seeking:** SOC Analyst, Security Engineering, and Detection Engineering internship opportunities.
+### 🎯 Career Interests
+
+- Security Operations Center (SOC) Analyst
+- Security Engineering
+- Detection Engineering
+- Network Security
+- Endpoint Security
+- Security Monitoring and Incident Response
+
+**Currently seeking cybersecurity internship opportunities and open to technical collaboration.**
 
 ---
 
-# 🎯 Technical Interests
+# 🛡️ Areas of Interest
 
 <div align="center">
 
 <table>
   <tr>
     <td align="center" width="33%">
-      <h3>🛡️ Network Defense</h3>
-      <p>Network traffic analysis, intrusion detection, packet inspection, and threat investigation.</p>
+      <h3>Network Defense</h3>
+      <p>Network traffic analysis, packet inspection, intrusion detection, and threat investigation.</p>
     </td>
     <td align="center" width="33%">
-      <h3>🖥️ Endpoint Security</h3>
+      <h3>Endpoint Security</h3>
       <p>Process telemetry, behavioral monitoring, endpoint detection, and risk scoring.</p>
     </td>
     <td align="center" width="33%">
-      <h3>🧠 Applied ML</h3>
-      <p>Anomaly detection, graph learning, feature engineering, and security analytics.</p>
+      <h3>Applied Machine Learning</h3>
+      <p>Anomaly detection, feature engineering, graph learning, and security analytics.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <h3>Security Operations</h3>
+      <p>SIEM platforms, alert investigation, event analysis, and incident-response workflows.</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>Linux & Systems</h3>
+      <p>Linux administration, system hardening, scripting, and infrastructure security.</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>Security Automation</h3>
+      <p>Security tool integration, event pipelines, and automated investigation workflows.</p>
     </td>
   </tr>
 </table>
 
 </div>
-
-My broader interests include:
-
-- Security Operations Center (SOC) workflows and alert investigation.
-- Security information and event management (SIEM).
-- Linux administration and system hardening.
-- Threat detection and incident-response workflows.
-- Security automation and tool integration.
-- Graph-based analysis of identities, endpoints, and network activity.
-- Evaluation of machine-learning techniques for cybersecurity.
 
 ---
 
@@ -127,33 +110,23 @@ My projects explore different aspects of cybersecurity and systems engineering, 
 
 <div align="center">
 
-  <a href="https://github.com/adicyb/NetGaurd-AI">
-    <img
-      src="https://github-readme-stats.vercel.app/api/pin/?username=adicyb&repo=NetGaurd-AI&theme=tokyonight&hide_border=true"
-      alt="NetGuard AI repository"
-    />
-  </a>
+<a href="https://github.com/adicyb/NetGaurd-AI">
+  <img src="https://img.shields.io/badge/🛡️%20NetGuard%20AI-Network%20Intrusion%20Detection-007f86?style=for-the-badge" alt="NetGuard AI"/>
+</a>
 
-  <a href="https://github.com/adicyb/zerosight-edr">
-    <img
-      src="https://github-readme-stats.vercel.app/api/pin/?username=adicyb&repo=zerosight-edr&theme=tokyonight&hide_border=true"
-      alt="ZeroSight EDR repository"
-    />
-  </a>
+<a href="https://github.com/adicyb/zerosight-edr">
+  <img src="https://img.shields.io/badge/🔍%20ZeroSight%20EDR-Behavioral%20Endpoint%20Detection-1c3b57?style=for-the-badge" alt="ZeroSight EDR"/>
+</a>
 
-  <a href="https://github.com/adicyb/wifi-security-ids">
-    <img
-      src="https://github-readme-stats.vercel.app/api/pin/?username=adicyb&repo=wifi-security-ids&theme=tokyonight&hide_border=true"
-      alt="WiFi Security IDS repository"
-    />
-  </a>
+<br/>
 
-  <a href="https://github.com/adicyb/zfh-core">
-    <img
-      src="https://github-readme-stats.vercel.app/api/pin/?username=adicyb&repo=zfh-core&theme=tokyonight&hide_border=true"
-      alt="Zero Fault Horizon repository"
-    />
-  </a>
+<a href="https://github.com/adicyb/wifi-security-ids">
+  <img src="https://img.shields.io/badge/📡%20WiFi%20Security%20IDS-Wireless%20Threat%20Detection-6a4c93?style=for-the-badge" alt="WiFi Security IDS"/>
+</a>
+
+<a href="https://github.com/adicyb/zfh-core">
+  <img src="https://img.shields.io/badge/🧬%20Zero%20Fault%20Horizon-Intelligent%20Network%20Rerouting-405d9b?style=for-the-badge" alt="Zero Fault Horizon"/>
+</a>
 
 </div>
 
@@ -163,7 +136,7 @@ My projects explore different aspects of cybersecurity and systems engineering, 
 
 ### Hybrid-ML Network Intrusion Detection System
 
-**Repository:** [NetGuard AI](https://github.com/adicyb/NetGaurd-AI)
+**[View Repository](https://github.com/adicyb/NetGaurd-AI)**
 
 NetGuard AI is a network intrusion detection project focused on identifying unusual traffic patterns through unsupervised machine learning and rule-based analysis.
 
@@ -194,7 +167,7 @@ It combines model outputs with rule-based indicators to produce confidence tiers
 
 ### Behavioral Endpoint Detection & Response
 
-**Repository:** [ZeroSight EDR](https://github.com/adicyb/zerosight-edr)
+**[View Repository](https://github.com/adicyb/zerosight-edr)**
 
 ZeroSight EDR is a lightweight endpoint monitoring project designed to identify processes that exhibit behavior worth investigating.
 
@@ -224,7 +197,7 @@ The project explores how endpoint telemetry can be collected, analyzed, and pres
 
 ### ESP8266-Based Evil-Twin and Rogue Access Point Detection
 
-**Repository:** [WiFi Security IDS](https://github.com/adicyb/wifi-security-ids)
+**[View Repository](https://github.com/adicyb/wifi-security-ids)**
 
 WiFi Security IDS explores hardware-assisted wireless security monitoring using an ESP8266-based scanning device and a Flask server.
 
@@ -253,7 +226,7 @@ The project demonstrates how lightweight hardware can participate in a security 
 
 ### Intelligent Rerouting on Simulated Network Topologies
 
-**Repository:** [Zero Fault Horizon](https://github.com/adicyb/zfh-core)
+**[View Repository](https://github.com/adicyb/zfh-core)**
 
 Zero Fault Horizon explores intelligent traffic rerouting in simulated network environments.
 
@@ -286,16 +259,48 @@ I am interested in exploring how relationships between identities, endpoints, an
 
 Areas of interest include:
 
-| Research Area | Technical Focus |
-|---|---|
-| Identity telemetry | Authentication activity and relationships between users and systems |
-| Network telemetry | Network flows, communication patterns, and host relationships |
-| Endpoint telemetry | Process activity and host-level behavioral information |
-| Behavioral analysis | Isolation Forest, One-Class SVM, and anomaly detection |
-| Graph learning | GraphSAGE, Graph Attention Networks, and relational security analysis |
-| Temporal analysis | Sliding-window temporal graphs and evolving activity patterns |
-| Hybrid detection | Combining behavioral, graph, and temporal evidence |
-| Evaluation | Detection latency, attack-chain analysis, and model ablation studies |
+<div align="center">
+
+<table>
+  <tr>
+    <th align="center">Research Area</th>
+    <th align="center">Technical Focus</th>
+  </tr>
+  <tr>
+    <td align="center">Identity Telemetry</td>
+    <td align="center">Authentication activity and relationships between users and systems</td>
+  </tr>
+  <tr>
+    <td align="center">Network Telemetry</td>
+    <td align="center">Network flows, communication patterns, and host relationships</td>
+  </tr>
+  <tr>
+    <td align="center">Endpoint Telemetry</td>
+    <td align="center">Process activity and host-level behavioral information</td>
+  </tr>
+  <tr>
+    <td align="center">Behavioral Analysis</td>
+    <td align="center">Isolation Forest, One-Class SVM, and anomaly detection</td>
+  </tr>
+  <tr>
+    <td align="center">Graph Learning</td>
+    <td align="center">GraphSAGE, Graph Attention Networks, and relational security analysis</td>
+  </tr>
+  <tr>
+    <td align="center">Temporal Analysis</td>
+    <td align="center">Sliding-window temporal graphs and evolving activity patterns</td>
+  </tr>
+  <tr>
+    <td align="center">Hybrid Detection</td>
+    <td align="center">Combining behavioral, graph, and temporal evidence</td>
+  </tr>
+  <tr>
+    <td align="center">Detection Evaluation</td>
+    <td align="center">Detection latency, attack-chain analysis, and model ablation studies</td>
+  </tr>
+</table>
+
+</div>
 
 These interests reflect my exploration of machine-learning approaches to cybersecurity. They are not claims of a completed or publicly released research system.
 
@@ -312,40 +317,33 @@ I have worked with a range of security tools and platforms through hands-on lear
     <th align="center">Category</th>
     <th align="center">Tools & Platforms</th>
   </tr>
-
   <tr>
-    <td><b>SIEM & Security Monitoring</b></td>
-    <td>Wazuh, Splunk</td>
+    <td align="center"><b>SIEM & Security Monitoring</b></td>
+    <td align="center">Wazuh, Splunk</td>
   </tr>
-
   <tr>
-    <td><b>Network Security</b></td>
-    <td>Suricata, Nmap, Wireshark, Cisco Packet Tracer</td>
+    <td align="center"><b>Network Security</b></td>
+    <td align="center">Suricata, Nmap, Wireshark, Cisco Packet Tracer</td>
   </tr>
-
   <tr>
-    <td><b>Security Automation & Case Management</b></td>
-    <td>Shuffle, TheHive</td>
+    <td align="center"><b>Security Automation & Case Management</b></td>
+    <td align="center">Shuffle, TheHive</td>
   </tr>
-
   <tr>
-    <td><b>Search & Security Analytics</b></td>
-    <td>OpenSearch, Tenzir</td>
+    <td align="center"><b>Search & Security Analytics</b></td>
+    <td align="center">OpenSearch, Tenzir</td>
   </tr>
-
   <tr>
-    <td><b>Linux & Systems</b></td>
-    <td>Linux, Bash, VirtualBox</td>
+    <td align="center"><b>Linux & Systems</b></td>
+    <td align="center">Linux, Bash, VirtualBox</td>
   </tr>
-
   <tr>
-    <td><b>Cloud & Infrastructure</b></td>
-    <td>AWS EC2, Docker</td>
+    <td align="center"><b>Cloud & Infrastructure</b></td>
+    <td align="center">AWS EC2, Docker</td>
   </tr>
-
   <tr>
-    <td><b>Development & Analysis</b></td>
-    <td>Python, Flask, Streamlit, Git, GitHub</td>
+    <td align="center"><b>Development & Analysis</b></td>
+    <td align="center">Python, Flask, Streamlit, Git, GitHub</td>
   </tr>
 </table>
 
@@ -368,10 +366,10 @@ I have worked with a range of security tools and platforms through hands-on lear
 
 <div align="center">
 
-  <img
-    src="https://img.shields.io/badge/Red%20Hat-Certified%20System%20Administrator%20(RHCSA)-EE0000?style=for-the-badge&logo=redhat&logoColor=white"
-    alt="Red Hat Certified System Administrator"
-  />
+<img
+  src="https://img.shields.io/badge/Red%20Hat-Certified%20System%20Administrator%20(RHCSA)-EE0000?style=for-the-badge&logo=redhat&logoColor=white"
+  alt="Red Hat Certified System Administrator"
+/>
 
 </div>
 
@@ -387,88 +385,86 @@ Red Hat certification demonstrating Linux system administration knowledge and pr
 
 <table>
   <tr>
-    <th>Domain</th>
-    <th>Skills & Technologies</th>
+    <th align="center">Domain</th>
+    <th align="center">Skills & Technologies</th>
   </tr>
-
   <tr>
-    <td><b>Programming</b></td>
-    <td>Python, C, C++, Java, SQL, Bash</td>
+    <td align="center"><b>Programming</b></td>
+    <td align="center">Python, C, C++, Java, SQL, Bash</td>
   </tr>
-
   <tr>
-    <td><b>Cybersecurity</b></td>
-    <td>Network Security, IDS/IPS, EDR Concepts, Security Monitoring, Threat Analysis, Vulnerability Assessment</td>
+    <td align="center"><b>Cybersecurity</b></td>
+    <td align="center">Network Security, IDS/IPS, EDR Concepts, Security Monitoring, Threat Analysis, Vulnerability Assessment</td>
   </tr>
-
   <tr>
-    <td><b>Network Analysis</b></td>
-    <td>Scapy, Wireshark, Nmap, Packet Analysis, Network Enumeration</td>
+    <td align="center"><b>Network Analysis</b></td>
+    <td align="center">Scapy, Wireshark, Nmap, Packet Analysis, Network Enumeration</td>
   </tr>
-
   <tr>
-    <td><b>Machine Learning</b></td>
-    <td>Isolation Forest, One-Class SVM, RandomForest, Feature Engineering, Anomaly Detection</td>
+    <td align="center"><b>Machine Learning</b></td>
+    <td align="center">Isolation Forest, One-Class SVM, RandomForest, Feature Engineering, Anomaly Detection</td>
   </tr>
-
   <tr>
-    <td><b>Security Platforms</b></td>
-    <td>Wazuh, Splunk, Suricata, Shuffle, TheHive, OpenSearch, Tenzir</td>
+    <td align="center"><b>Security Platforms</b></td>
+    <td align="center">Wazuh, Splunk, Suricata, Shuffle, TheHive, OpenSearch, Tenzir</td>
   </tr>
-
   <tr>
-    <td><b>Systems & Cloud</b></td>
-    <td>Linux Administration, Docker, AWS EC2, VirtualBox</td>
+    <td align="center"><b>Systems & Cloud</b></td>
+    <td align="center">Linux Administration, Docker, AWS EC2, VirtualBox</td>
   </tr>
-
   <tr>
-    <td><b>Development</b></td>
-    <td>Flask, Streamlit, SQLite, MySQL, Git, GitHub</td>
+    <td align="center"><b>Development</b></td>
+    <td align="center">Flask, Streamlit, SQLite, MySQL, Git, GitHub</td>
   </tr>
-
 </table>
 
 </div>
 
 ---
 
-## 💻 Technology Stack
+# ⚙️ Technology Stack
 
 <div align="center">
 
-  <h3>Programming Languages</h3>
+### Programming Languages
 
-  <img
-    src="https://skillicons.dev/icons?i=python,c,cpp,java,bash&theme=dark"
-    alt="Python, C, C++, Java, and Bash"
-  />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C"/>
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"/>
 
-  <br/><br/>
+### Frameworks, Libraries & Data
 
-  <h3>Frameworks, Libraries & Data</h3>
+<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
 
-  <img
-    src="https://skillicons.dev/icons?i=flask,sqlite,mysql,pandas,numpy,sklearn&theme=dark"
-    alt="Flask, SQLite, MySQL, Pandas, NumPy, and scikit-learn"
-  />
+### Security & Network Analysis
 
-  <br/><br/>
+<img src="https://img.shields.io/badge/Wazuh-3A7AFE?style=for-the-badge&logo=wazuh&logoColor=white" alt="Wazuh"/>
+<img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white" alt="Splunk"/>
+<img src="https://img.shields.io/badge/Suricata-EF3B2D?style=for-the-badge&logo=suricata&logoColor=white" alt="Suricata"/>
+<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
+<img src="https://img.shields.io/badge/Nmap-214478?style=for-the-badge" alt="Nmap"/>
 
-  <h3>Infrastructure & Development</h3>
+### Infrastructure & Development
 
-  <img
-    src="https://skillicons.dev/icons?i=linux,docker,aws,prometheus,grafana,git,github&theme=dark"
-    alt="Linux, Docker, AWS, Prometheus, Grafana, Git, and GitHub"
-  />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 
-  <br/><br/>
+### Hardware & Platforms
 
-  <h3>Hardware & Platforms</h3>
-
-  <img
-    src="https://skillicons.dev/icons?i=arduino,raspberrypi,ubuntu,vscode&theme=dark"
-    alt="Arduino, Raspberry Pi, Ubuntu, and Visual Studio Code"
-  />
+<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino"/>
+<img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi"/>
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu"/>
+<img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white" alt="VirtualBox"/>
 
 </div>
 
@@ -478,58 +474,68 @@ Red Hat certification demonstrating Linux system administration knowledge and pr
 
 <div align="center">
 
-  <!-- GitHub Statistics -->
+<!-- GitHub Profile Summary -->
 
-  <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api?username=adicyb&show_icons=true&theme=tokyonight&hide_border=true"
-    alt="GitHub statistics"
-  />
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=adicyb&theme=tokyonight"
+  width="100%"
+  alt="GitHub profile summary"
+/>
 
-  <!-- Most Used Languages -->
+<br/><br/>
 
-  <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=adicyb&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
-    alt="Most used programming languages"
-  />
+<!-- GitHub Statistics -->
 
-  <br/><br/>
+<img
+  src="https://github-readme-stats.vercel.app/api?username=adicyb&show_icons=true&theme=tokyonight&hide_border=true"
+  height="180"
+  alt="GitHub statistics"
+/>
 
-  <!-- Contribution Streak -->
+<!-- Most Used Languages -->
 
-  <img
-    src="https://streak-stats.demolab.com?user=adicyb&theme=tokyonight&hide_border=true"
-    alt="GitHub contribution streak"
-  />
+<img
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=adicyb&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
+  height="180"
+  alt="Most used programming languages"
+/>
 
-</div>
+<br/><br/>
 
----
+<!-- Contribution Streak -->
 
-## 📈 Contribution Activity
-
-<div align="center">
-
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=adicyb&theme=tokyo-night&hide_border=true&area=true"
-    width="100%"
-    alt="GitHub contribution activity graph"
-  />
+<img
+  src="https://streak-stats.demolab.com?user=adicyb&theme=tokyonight&hide_border=true"
+  alt="GitHub contribution streak"
+/>
 
 </div>
 
 ---
 
-## 🏆 GitHub Achievements
+# 📈 Contribution Activity
 
 <div align="center">
 
-  <img
-    src="https://github-profile-trophy.vercel.app/?username=adicyb&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6"
-    width="100%"
-    alt="GitHub profile trophies"
-  />
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=adicyb&theme=tokyo-night&hide_border=true&area=true"
+  width="100%"
+  alt="GitHub contribution activity graph"
+/>
+
+</div>
+
+---
+
+# 🏆 GitHub Achievements
+
+<div align="center">
+
+<img
+  src="https://github-profile-trophy.vercel.app/?username=adicyb&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6"
+  width="100%"
+  alt="GitHub profile trophies"
+/>
 
 </div>
 
@@ -543,28 +549,23 @@ I'm open to technical discussions, project collaboration, and internship opportu
 
 <div align="center">
 
-  <a href="https://github.com/adicyb">
-    <img
-      src="https://img.shields.io/badge/GitHub-Explore%20My%20Projects-181717?style=for-the-badge&logo=github&logoColor=white"
-      alt="Explore my GitHub projects"
-    />
-  </a>
+<a href="https://github.com/adicyb">
+  <img src="https://img.shields.io/badge/GitHub-Explore%20My%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore my GitHub projects"/>
+</a>
 
-  <a href="https://www.linkedin.com/in/aditya-khandelwal2006/">
-    <img
-      src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-      alt="Connect on LinkedIn"
-    />
-  </a>
+<a href="https://www.linkedin.com/in/aditya-khandelwal2006/">
+  <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/>
+</a>
 
-  <br/><br/>
+<br/><br/>
 
-  <a href="https://github.com/adicyb?tab=repositories">
-    <img
-      src="https://img.shields.io/badge/View-All%20Repositories-007f86?style=for-the-badge&logo=github&logoColor=white"
-      alt="View all repositories"
-    />
-  </a>
+<a href="https://github.com/adicyb?tab=repositories">
+  <img src="https://img.shields.io/badge/View-All%20Repositories-007f86?style=for-the-badge&logo=github&logoColor=white" alt="View all repositories"/>
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=adicyb&label=Profile%20Views&color=007f86&style=flat-square" alt="Profile views"/>
 
 </div>
 
@@ -572,17 +573,17 @@ I'm open to technical discussions, project collaboration, and internship opportu
 
 <div align="center">
 
-  <sub>
-    Building practical cybersecurity systems through experimentation,
-    engineering, and continuous learning.
-  </sub>
+<sub>
+Building practical cybersecurity systems through experimentation,
+engineering, and continuous learning.
+</sub>
 
-  <br/><br/>
+<br/><br/>
 
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:007f86,45:1c3b57,100:0b132b&height=120&section=footer"
-    width="100%"
-    alt="Profile footer"
-  />
+<img
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:007f86,45:1c3b57,100:0b132b&height=120&section=footer"
+  width="100%"
+  alt="Profile footer"
+/>
 
 </div>
