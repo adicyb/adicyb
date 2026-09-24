@@ -1,87 +1,114 @@
-# Hi, I'm Aditya Khandelwal 👋
+<div align="center">
 
-### Cybersecurity Enthusiast | Security Tooling | Python | AI/ML
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,40:203a43,100:2c5364&height=180&section=header&text=Aditya%20Khandelwal&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Cybersecurity%20Engineering%20%C2%B7%20Detection%20Systems%20%C2%B7%20Applied%20ML&descSize=15&descAlignY=58&descColor=4FC3F7" width="100%" alt="Aditya Khandelwal" />
 
-I build practical cybersecurity tools focused on network security,
-threat detection, digital forensics, and security automation.
+**I build detection tools — network IDS, behavioral EDR, and Wi-Fi monitoring — and evaluate them instead of just shipping them.**
 
-Currently exploring:
-- 🔐 Network & Endpoint Security
-- 🤖 AI/ML for Cybersecurity
-- 🐍 Python Security Tooling
-- 🕵️ Digital Forensics & Reconnaissance
-- 🐧 Linux & Security Engineering
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-aditya--khandelwal2006-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-khandelwal2006/)
+[![GitHub](https://img.shields.io/badge/GitHub-adicyb-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adicyb)
+
+</div>
 
 ---
 
-## 🚀 Featured Projects
+## About
 
-### 🛡️ NetGuard-AI
-AI-powered Network Intrusion Detection System with real-time packet
-capture, anomaly detection, and a security operations dashboard.
+I'm a B.Tech CSE student specializing in Cyber Security. My work centers on **detection engineering** — building systems that turn raw telemetry (packets, process activity, wireless beacons) into actionable security signals — and on being honest about what a given detection technique can and can't tell you.
 
-**Tech:** Python · Scapy · Machine Learning · Isolation Forest · One-Class SVM
+I gravitate toward projects with a measurable output: a confusion matrix, a labeled event log, a reproducible test harness. When I use machine learning, I try to be precise about what the model is actually estimating — an anomaly score is not a probability of malicious intent, and unsupervised detection means *unusual*, not *confirmed malicious*.
 
----
-
-### 🔎 ZeroSight-Portable-Recon
-Portable autonomous Wi-Fi and Bluetooth environmental reconnaissance
-and monitoring system built for Raspberry Pi Zero 2 W.
-
-**Tech:** Python · Raspberry Pi · Wi-Fi · Bluetooth · Linux
+Currently looking for **SOC Analyst / Security Engineering internships** and open to collaborating on detection tooling.
 
 ---
 
-### 🕵️ StegX
-CLI-based secure media steganography toolkit supporting image and video
-payload extraction, encryption, and detection.
+## Selected Projects
 
-**Tech:** Python · Cryptography · Steganography · CLI
+Each project below focuses on a different layer of the detection stack, from network traffic to endpoint behavior to RF signals.
 
----
+### 🛡️ [NetGuard AI](https://github.com/adicyb/NetGaurd-AI)
+**Network intrusion detection using unsupervised anomaly detection**
 
-### 🌐 WiFi-Security-IDS
-Network security monitoring and intrusion detection focused on
-Wi-Fi environments.
+Captures live traffic with Scapy, extracts features over 1-second windows, and scores them with an **Isolation Forest + One-Class SVM** ensemble trained on a baseline of the network's own traffic — no labeled attack dataset required. Agreement between the two models plus a rule layer (flood / scan / exfiltration heuristics) produces a HIGH / MEDIUM / LOW confidence tier, which is logged to SQLite and shown on a Streamlit dashboard. A built-in traffic simulator lets the detection logic be exercised and demoed without live attacks.
 
-**Tech:** Python · Network Security · IDS
+*Note: confidence tiers are a heuristic combination of model agreement and rule thresholds, not a calibrated probability of malicious activity.*
 
----
+`Python` · `Scapy` · `scikit-learn` · `Streamlit` · `SQLite`
 
-## 🧰 Tech Stack
+### 🔍 [ZeroSight EDR](https://github.com/adicyb/zerosight-edr)
+**Behavioral endpoint detection, independent of signatures**
 
-**Languages**
+Collects real-time process telemetry via `psutil` and applies a behavioral risk-scoring engine to flag processes worth investigating, rather than matching against known-bad hashes or signatures. Findings surface on an interactive dashboard with manual process isolation and incident logging. Because it's behavior-based, it can surface processes that no signature exists for yet — but a high risk score is a lead for an analyst, not a confirmed verdict.
 
-Python · C/C++ · Bash · SQL
+`Python` · `psutil` · `Streamlit` · `Plotly` · `SQLite`
 
-**Cybersecurity**
+### 📡 [WiFi Security IDS](https://github.com/adicyb/wifi-security-ids)
+**Hardware-assisted Evil-Twin / rogue-AP detection**
 
-Network Security · IDS/IPS · Digital Forensics · Steganography ·
-Reconnaissance · Threat Detection
+An ESP8266 scans nearby Wi-Fi networks (SSID, BSSID, channel, RSSI) and applies on-device rule-based scoring to flag likely Evil Twin access points — BSSID conflicts on a known SSID, abnormal signal strength, and channel mismatches. Results are shipped over HTTP to a Flask server that logs events and renders alerts. This project demonstrates detection logic running directly on constrained hardware rather than a server-side pipeline.
 
-**AI / ML**
+`C++ (Arduino)` · `ESP8266` · `Flask` · `Python`
 
-Scikit-learn · Anomaly Detection · Machine Learning
+### 🧬 [Zero Fault Horizon](https://github.com/adicyb/zfh-core)
+**Learned traffic rerouting on simulated network topologies**
 
-**Systems**
+Models network topologies with NetworkX, injects link failures, and trains a RandomForest classifier on a dataset generated by a rule-based "teacher" agent to reroute traffic around the failure. Reported path-prediction accuracy on the generated dataset is ~93% (not yet validated against real network conditions or an independent test environment). Included primarily to show systems/ML work outside pure intrusion detection — graph modeling, synthetic dataset generation, and classifier evaluation.
 
-Linux · Raspberry Pi · Git · GitHub
-
----
-
-## 📊 What I'm Building
-
-I'm interested in building security software that combines:
-
-`Cybersecurity` + `Automation` + `AI/ML` + `Systems`
-
-My goal is to move beyond theoretical security concepts and build
-tools that can actually detect, analyze, and respond to security events.
+`Python` · `NetworkX` · `scikit-learn` · `Pandas`
 
 ---
 
-## 📫 Connect With Me
+## Technical Skills
 
-[LinkedIn](YOUR_LINKEDIN_URL)
+**Languages** — Python, C/C++ (Arduino), Bash, SQL
 
-[GitHub](https://github.com/adicyb)
+**Cybersecurity & Network Analysis** — packet capture & analysis (Scapy), intrusion detection design, behavioral endpoint monitoring, Wi-Fi/Evil-Twin detection, rule-based threat classification, risk scoring, attack simulation
+
+**Machine Learning & Data** — unsupervised anomaly detection (Isolation Forest, One-Class SVM), supervised classification (Random Forest), feature engineering, model evaluation, scikit-learn, Pandas
+
+**Systems & Infrastructure** — Linux administration, Docker, AWS EC2, Git/GitHub
+
+**Frameworks & Tooling** — Flask, Streamlit, Plotly, SQLite, NetworkX
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=python,c,cpp,bash,sqlite,flask,sklearn,pandas,docker,aws,linux,git&theme=dark" alt="Tech stack icons" />
+</div>
+
+---
+
+## NetGuard AI — Detection Logic
+
+The most technically distinct part of my work is how NetGuard AI turns two independent anomaly scores into a usable confidence tier:
+
+```mermaid
+flowchart TD
+    S(["1-second traffic window"]) --> M{"Both models flag anomaly?"}
+    M -- "Yes, strong agreement" --> H["HIGH confidence"]
+    M -- "Yes, borderline" --> Me["MEDIUM confidence"]
+    M -- "Only one model flags it" --> Me
+    M -- "Neither flags it" --> R{"Rule threshold breached?"}
+    R -- "Yes" --> H
+    R -- "No" --> L["LOW confidence"]
+
+    style H fill:#b71c1c,stroke:#ff5252,color:#fff
+    style Me fill:#e65100,stroke:#ffab40,color:#fff
+    style L fill:#1b5e20,stroke:#66bb6a,color:#fff
+```
+
+This is a heuristic combining rule and disagreement between two unsupervised models — useful for triage, not a substitute for analyst review.
+
+---
+
+## GitHub Stats
+
+<div align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=adicyb&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adicyb&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+</div>
+
+---
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/aditya-khandelwal2006/) · [GitHub](https://github.com/adicyb)
+
+</div>
