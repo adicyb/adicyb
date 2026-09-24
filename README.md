@@ -1,3 +1,8 @@
+<!-- ==========================================================
+     ADITYA KHANDELWAL | CYBERSECURITY ENGINEERING
+     GitHub Profile: adicyb
+     ========================================================== -->
+
 <div align="center">
 
 <!-- ===================== HEADER ===================== -->
@@ -17,12 +22,20 @@
 
 <br/><br/>
 
+<!-- ===================== SOCIAL LINKS ===================== -->
+
 <a href="https://github.com/adicyb">
-  <img src="https://img.shields.io/badge/GitHub-adicyb-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img
+    src="https://img.shields.io/badge/GitHub-adicyb-181717?style=for-the-badge&logo=github&logoColor=white"
+    alt="GitHub"
+  />
 </a>
 
 <a href="https://www.linkedin.com/in/aditya-khandelwal2006/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <img
+    src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+    alt="LinkedIn"
+  />
 </a>
 
 <br/><br/>
@@ -65,42 +78,52 @@ I am also interested in the distinction between unusual behavior and confirmed m
 
 ---
 
-# 🛡️ Areas of Interest
+# 🎯 Areas of Interest
 
 <div align="center">
 
 <table>
   <tr>
     <td align="center" width="33%">
-      <h3>Network Defense</h3>
+      <h3>🛡️ Network Defense</h3>
       <p>Network traffic analysis, packet inspection, intrusion detection, and threat investigation.</p>
     </td>
     <td align="center" width="33%">
-      <h3>Endpoint Security</h3>
+      <h3>🖥️ Endpoint Security</h3>
       <p>Process telemetry, behavioral monitoring, endpoint detection, and risk scoring.</p>
     </td>
     <td align="center" width="33%">
-      <h3>Applied Machine Learning</h3>
+      <h3>🧠 Applied Machine Learning</h3>
       <p>Anomaly detection, feature engineering, graph learning, and security analytics.</p>
     </td>
   </tr>
   <tr>
     <td align="center" width="33%">
-      <h3>Security Operations</h3>
+      <h3>🔎 Security Operations</h3>
       <p>SIEM platforms, alert investigation, event analysis, and incident-response workflows.</p>
     </td>
     <td align="center" width="33%">
-      <h3>Linux & Systems</h3>
+      <h3>🐧 Linux & Systems</h3>
       <p>Linux administration, system hardening, scripting, and infrastructure security.</p>
     </td>
     <td align="center" width="33%">
-      <h3>Security Automation</h3>
+      <h3>⚙️ Security Automation</h3>
       <p>Security tool integration, event pipelines, and automated investigation workflows.</p>
     </td>
   </tr>
 </table>
 
 </div>
+
+My broader interests include:
+
+- Security Operations Center (SOC) workflows and alert investigation.
+- Security information and event management (SIEM).
+- Linux administration and system hardening.
+- Threat detection and incident-response workflows.
+- Security automation and tool integration.
+- Graph-based analysis of identities, endpoints, and network activity.
+- Evaluation of machine-learning techniques for cybersecurity.
 
 ---
 
@@ -111,21 +134,33 @@ My projects explore different aspects of cybersecurity and systems engineering, 
 <div align="center">
 
 <a href="https://github.com/adicyb/NetGaurd-AI">
-  <img src="https://img.shields.io/badge/🛡️%20NetGuard%20AI-Network%20Intrusion%20Detection-007f86?style=for-the-badge" alt="NetGuard AI"/>
+  <img
+    src="https://img.shields.io/badge/🛡️%20NetGuard%20AI-Network%20Intrusion%20Detection-007f86?style=for-the-badge"
+    alt="NetGuard AI repository"
+  />
 </a>
 
 <a href="https://github.com/adicyb/zerosight-edr">
-  <img src="https://img.shields.io/badge/🔍%20ZeroSight%20EDR-Behavioral%20Endpoint%20Detection-1c3b57?style=for-the-badge" alt="ZeroSight EDR"/>
+  <img
+    src="https://img.shields.io/badge/🔍%20ZeroSight%20EDR-Behavioral%20Endpoint%20Detection-1c3b57?style=for-the-badge"
+    alt="ZeroSight EDR repository"
+  />
 </a>
 
-<br/>
+<br/><br/>
 
 <a href="https://github.com/adicyb/wifi-security-ids">
-  <img src="https://img.shields.io/badge/📡%20WiFi%20Security%20IDS-Wireless%20Threat%20Detection-6a4c93?style=for-the-badge" alt="WiFi Security IDS"/>
+  <img
+    src="https://img.shields.io/badge/📡%20WiFi%20Security%20IDS-Wireless%20Threat%20Detection-6a4c93?style=for-the-badge"
+    alt="WiFi Security IDS repository"
+  />
 </a>
 
 <a href="https://github.com/adicyb/zfh-core">
-  <img src="https://img.shields.io/badge/🧬%20Zero%20Fault%20Horizon-Intelligent%20Network%20Rerouting-405d9b?style=for-the-badge" alt="Zero Fault Horizon"/>
+  <img
+    src="https://img.shields.io/badge/🧬%20Zero%20Fault%20Horizon-Intelligent%20Network%20Rerouting-405d9b?style=for-the-badge"
+    alt="Zero Fault Horizon repository"
+  />
 </a>
 
 </div>
@@ -256,8 +291,6 @@ The classifier is then used to predict routing decisions intended to route traff
 My research interests include **multimodal security telemetry, graph-based machine learning, and lateral movement detection** in enterprise environments.
 
 I am interested in exploring how relationships between identities, endpoints, and network activity can provide additional context for investigating suspicious behavior.
-
-Areas of interest include:
 
 <div align="center">
 
@@ -434,6 +467,8 @@ Red Hat certification demonstrating Linux system administration knowledge and pr
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
 <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"/>
 
+<br/><br/>
+
 ### Frameworks, Libraries & Data
 
 <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
@@ -443,6 +478,8 @@ Red Hat certification demonstrating Linux system administration knowledge and pr
 <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
 
+<br/><br/>
+
 ### Security & Network Analysis
 
 <img src="https://img.shields.io/badge/Wazuh-3A7AFE?style=for-the-badge&logo=wazuh&logoColor=white" alt="Wazuh"/>
@@ -451,6 +488,8 @@ Red Hat certification demonstrating Linux system administration knowledge and pr
 <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
 <img src="https://img.shields.io/badge/Nmap-214478?style=for-the-badge" alt="Nmap"/>
 
+<br/><br/>
+
 ### Infrastructure & Development
 
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
@@ -458,6 +497,8 @@ Red Hat certification demonstrating Linux system administration knowledge and pr
 <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+
+<br/><br/>
 
 ### Hardware & Platforms
 
@@ -518,9 +559,15 @@ Red Hat certification demonstrating Linux system administration knowledge and pr
 <div align="center">
 
 <img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=adicyb&theme=tokyo-night&hide_border=true&area=true"
-  width="100%"
-  alt="GitHub contribution activity graph"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=adicyb&theme=tokyonight&utcOffset=5.5"
+  width="49%"
+  alt="GitHub productive time"
+/>
+
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=adicyb&theme=tokyonight"
+  width="49%"
+  alt="GitHub contribution statistics"
 />
 
 </div>
@@ -531,11 +578,21 @@ Red Hat certification demonstrating Linux system administration knowledge and pr
 
 <div align="center">
 
-<img
-  src="https://github-profile-trophy.vercel.app/?username=adicyb&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6"
-  width="100%"
-  alt="GitHub profile trophies"
-/>
+<a href="https://github.com/adicyb?tab=achievements">
+  <img
+    src="https://img.shields.io/badge/View-GitHub%20Achievements-8957e5?style=for-the-badge&logo=github&logoColor=white"
+    alt="View GitHub Achievements"
+  />
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/adicyb?tab=repositories">
+  <img
+    src="https://img.shields.io/badge/Explore-My%20Repositories-238636?style=for-the-badge&logo=github&logoColor=white"
+    alt="Explore my repositories"
+  />
+</a>
 
 </div>
 
@@ -550,22 +607,34 @@ I'm open to technical discussions, project collaboration, and internship opportu
 <div align="center">
 
 <a href="https://github.com/adicyb">
-  <img src="https://img.shields.io/badge/GitHub-Explore%20My%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore my GitHub projects"/>
+  <img
+    src="https://img.shields.io/badge/GitHub-Explore%20My%20Projects-181717?style=for-the-badge&logo=github&logoColor=white"
+    alt="Explore my GitHub projects"
+  />
 </a>
 
 <a href="https://www.linkedin.com/in/aditya-khandelwal2006/">
-  <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/>
+  <img
+    src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+    alt="Connect on LinkedIn"
+  />
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/adicyb?tab=repositories">
-  <img src="https://img.shields.io/badge/View-All%20Repositories-007f86?style=for-the-badge&logo=github&logoColor=white" alt="View all repositories"/>
+  <img
+    src="https://img.shields.io/badge/View-All%20Repositories-007f86?style=for-the-badge&logo=github&logoColor=white"
+    alt="View all repositories"
+  />
 </a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=adicyb&label=Profile%20Views&color=007f86&style=flat-square" alt="Profile views"/>
+<img
+  src="https://komarev.com/ghpvc/?username=adicyb&label=Profile%20Views&color=007f86&style=flat-square"
+  alt="Profile views"
+/>
 
 </div>
 
