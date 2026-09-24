@@ -49,6 +49,27 @@
 
 ---
 
+## 🧭 Table of Contents
+
+- [About Me](#-about-me)
+- [Areas of Interest](#-areas-of-interest)
+- [Featured Projects](#-featured-projects)
+  - [NetGuard AI](#️-netguard-ai)
+  - [ZeroSight EDR](#-zerosight-edr)
+  - [WiFi Security IDS](#-wifi-security-ids)
+  - [Zero Fault Horizon](#-zero-fault-horizon)
+- [Research Interests](#-research-interests)
+- [Security Tooling & Lab Experience](#️-security-tooling--lab-experience)
+- [Certifications](#-certification)
+- [Technical Skills](#-technical-skills)
+- [Technology Stack](#️-technology-stack)
+- [GitHub Analytics](#-github-analytics)
+- [Contribution Activity](#-contribution-activity)
+- [GitHub Achievements](#-github-achievements)
+- [Connect With Me](#-connect-with-me)
+
+---
+
 # 👨‍💻 About Me
 
 Hi, I'm **Aditya Khandelwal**, a B.Tech Computer Science and Engineering student specializing in Cyber Security at **SRM Institute of Science and Technology**.
@@ -130,6 +151,15 @@ My broader interests include:
 # 🚀 Featured Projects
 
 My projects explore different aspects of cybersecurity and systems engineering, from network traffic inspection to endpoint monitoring and wireless security.
+
+### Project Index
+
+| Project | Focus | Repository |
+|---|---|---|
+| **NetGuard AI** | Hybrid-ML network intrusion detection | [Open repository](https://github.com/adicyb/NetGaurd-AI) |
+| **ZeroSight EDR** | Behavioral endpoint detection and response | [Open repository](https://github.com/adicyb/zerosight-edr) |
+| **WiFi Security IDS** | Wireless threat detection using ESP8266 | [Open repository](https://github.com/adicyb/wifi-security-ids) |
+| **Zero Fault Horizon** | Intelligent rerouting on simulated networks | [Open repository](https://github.com/adicyb/zfh-core) |
 
 <div align="center">
 
@@ -552,6 +582,8 @@ Red Hat certification demonstrating Linux system administration knowledge and pr
 
 </div>
 
+> **Analytics note:** The cards above and below are rendered by external services using GitHub account data. Their availability, refresh timing, and displayed metrics depend on those services and their caching; they are not static images stored in this repository.
+
 ---
 
 # 📈 Contribution Activity
@@ -603,6 +635,8 @@ Red Hat certification demonstrating Linux system administration knowledge and pr
 I'm interested in connecting with people working in cybersecurity, detection engineering, security operations, and applied machine learning.
 
 I'm open to technical discussions, project collaboration, and internship opportunities related to cybersecurity engineering.
+
+For the most current implementation details, setup instructions, and project status, please refer to the individual repositories linked above.
 
 <div align="center">
 
